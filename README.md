@@ -52,16 +52,16 @@ Both the < and > parameters are optional, but they can be used on most Linux com
 
 Useful character groupings that tr is aware of:
 
-* [:alnum:] All letters and digits (A–Z, a–z, 0–9)
-* [:alpha:] All letters (A–Z, a–z)
-* [:digit:] All digits (0–9)
-* [:punct:] All punctuation characters
+* `[:alnum:]` All letters and digits (A–Z, a–z, 0–9)
+* `[:alpha:]` All letters (A–Z, a–z)
+* `[:digit:]` All digits (0–9)
+* `[:punct:]` All punctuation characters
 
 ## STREAM EDITOR - sed
 
 `sed ‘s/[original]/[replacewith]/g’ filename` – search for all instances of the original string in the file and replace it with the specified string.
 
-## STREAM REDIRECTIon
+## STREAM REDIRECTION
 
 The ‘>’ character can be used to save the output of a command to a file. However, adding a second ‘>’ character will instead append the output to an existing file, adding the output to the bottom of what already exists in the file.
 
